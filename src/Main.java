@@ -27,8 +27,8 @@ public class Main {
     AUTUMN,
   }
 
-  public static Map<Month, Integer> buildMonthsMap() { // сделать словарь с месяцами и днями
-    Map<Month, Integer> months = new HashMap<>(); // словарь с месяцами и днями
+  public static Map<Month, Integer> buildMonthsMap() { 
+    Map<Month, Integer> months = new HashMap<>(); 
 
     months.put(Month.JANUARY, 31);
     months.put(Month.FEBRUARY, 28);
@@ -43,7 +43,7 @@ public class Main {
     months.put(Month.NOVEMBER, 30);
     months.put(Month.DECEMBER, 31);
 
-    return months; // возвращаем готовый словарь с месяцами и днями
+    return months; 
   }
 
   public static Season findSeason(Month month) {
